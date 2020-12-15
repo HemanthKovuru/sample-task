@@ -82,6 +82,7 @@ const getReport = async () => {
 
 // schedule task and databse connection
 schedule.scheduleJob("*/20 * * * * *", () => {
+  // 1]. connect to database
   mongoose
     .connect(db, {
       useUnifiedTopology: true,
@@ -96,6 +97,6 @@ schedule.scheduleJob("*/20 * * * * *", () => {
       console.log(err);
     });
 
-  // call report function
+  // 2]. call report function
   getReport();
 });

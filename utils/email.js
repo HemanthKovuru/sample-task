@@ -1,9 +1,8 @@
 const sg = require("@sendgrid/mail");
 const fs = require("fs");
 
-sg.setApiKey(
-  "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"
-);
+console.log("Please set your own sendgrid api key");
+sg.setApiKey("your api key");
 
 const sendEmail = async (mailOptions) => {
   try {

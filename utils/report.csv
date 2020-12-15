@@ -1,0 +1,7 @@
+sl_no,order_id,payment_id,title,createdAt,updatedAt,item_id,coupon,amount,paid_status,phone,email,utm_params_source,utm_params_medium,utm_params_campaign,utm_params_term
+1,5fd6d1b4e95ef23c6410c6f2,276159121,jacket,,,"""5fd61b54efd16145500b7f73""",OFF50,4000,1,1234567890,john.doe@email.com,google,seo_pages,sale,
+2,5fd6d1e8e95ef23c6410c6f4,276159121,jeans,,,"""5fd61c384d084d73e8ddca42""",OFF50,2000,1,1234567890,john.doe@email.com,google,seo_pages,sale,
+3,5fd6d54dc452dc3b3c894925,276159121,t-shirt,,,"""5fd61c514d084d73e8ddca43""",OFF50,1000,1,1234567890,john.doe@email.com,google,seo_pages,sale,
+4,5fd6d58cf258382688119531,276159121,denim-short,,,"""5fd61c8a4d084d73e8ddca44""",OFF50,1500,1,1234567890,john.doe@email.com,google,seo_pages,sale,
+5,5fd6d66eb068773aa496c315,276159121,jacket,,,"""5fd61b54efd16145500b7f73""",OFF50,2000,,1234567890,john.doe@email.com,google,seo_pages,sale,
+6,5fd6d6b65ecb75306c7783fb,276159121,t-shirt,,,"""5fd61c514d084d73e8ddca43""",OFF50,1000,,1234567890,john.doe@email.com,google,seo_pages,sale,
